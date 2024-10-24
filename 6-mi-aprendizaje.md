@@ -1,3 +1,8 @@
 # COMPLETAR  
 Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
 Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+
+Al empezar la práctica, tenía una idea básica de Docker, pero al final logré aprender bastante sobre cómo manejar contenedores y mapear puertos correctamente. Uno de los principales aprendizajes fue la diferencia entre asignar manualmente los puertos con `--publish` y dejar que Docker lo haga automáticamente con `-P`. Esto me dio más control sobre la red entre el host y los contenedores.
+Crear un contenedor de Jenkins y mapear los puertos necesarios también fue un gran aprendizaje. No solo aprendí a hacerlo, sino que entendí cómo Jenkins puede integrarse en entornos reales para CI/CD. Además, interactuar con el contenedor usando `docker exec` me permitió ejecutar comandos dentro del contenedor, algo que antes no manejaba tan bien.
+Un punto interesante fue cuando tuve que obtener la contraseña inicial de Jenkins. Para eso, tuve que acceder al contenedor y buscar el archivo. Al principio tuve problemas para ver la salida de los comandos porque no estaba usando el comando adecuado (`-it` en lugar de solo `-i`), pero una vez que lo resolví, pude navegar dentro del contenedor sin problemas y obtener la contraseña.
+La práctica fue súper útil. Ahora me siento más cómodo trabajando con Docker y puedo manejar mejor entornos de desarrollo con contenedores, algo que sin duda será importante en mi carrera.
